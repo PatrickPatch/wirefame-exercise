@@ -1,0 +1,24 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  /* display: inline-block; */
+  background-color: rgb(89, 89, 89);
+  color: darkgrey;
+  display: block;
+  float: left;
+}
+Header {
+  display: block;
+  background-color: rgb(89, 89, 89);
+}
+
+footer {
+  background-color: rgb(89, 89, 89);
+  display: block;
+}
