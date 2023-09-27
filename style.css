@@ -1,19 +1,39 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  /* display: inline-block; */
+nav {
+  width: 100%;
+  /* display: flex; */
   background-color: rgb(89, 89, 89);
   color: darkgrey;
   display: block;
   float: left;
+  /* justify-content: space-between; */
 }
-Header {
+
+li {
+  /* padding: 200px, 70px; */
+
+  padding-top: 100px;
+  padding-right: 35px;
+  padding-bottom: 100px;
+  padding-left: 35px;
+  float: left;
+}
+
+/* li { 
+   
+  
+    position
+    : 
+    fixed
+    ;
+      
+    top
+    : 50px;
+      
+    right
+    : 10px;
+    } */
+
+/* Header {
   display: block;
   background-color: rgb(89, 89, 89);
 }
@@ -21,4 +41,41 @@ Header {
 footer {
   background-color: rgb(89, 89, 89);
   display: block;
+} */
+
+/* navbar {
+  width: 90%;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section {
+  background-color: #003049;
+  width: 90%;
+  margin: 0 auto;
+  height: 500px;
+  border: 5px solid #003049;
+  /* FLEX STYLES */
+/* display: flex;
+  align-items: flex-end;
+}
+
+section div {
+  width: 200px;
+  height: 200px;
+}
+
+div:nth-of-type(3) {
+  align-self: flex-start;
+} */
+
+/* background-color: rgb(89, 89, 89);
+color: darkgrey; */
