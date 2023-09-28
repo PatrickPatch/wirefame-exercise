@@ -1,11 +1,11 @@
 nav {
   width: 100%;
-  /* display: flex; */
+  display: flex;
   background-color: rgb(89, 89, 89);
   color: darkgrey;
   display: block;
-  float: left;
-  /* justify-content: space-between; */
+  /* float: left;  */
+  justify-content: space-between;
 }
 
 li {
@@ -21,6 +21,43 @@ img hban {
   position: static;
   align-self: center;
 }
+main {
+  max-width: 960px;
+  margin: 0;
+}
 
+article {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+article img {
+  max-height: 400px;
+}
+div p {
+  max-height: 65%;
+  overflow-y: scroll;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+header {
+  display: flex;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.5rem;
+}
+footer {
+  background-color: rgb(89, 89, 89);
+  height: 200px;
+}
 /* background-color: rgb(89, 89, 89);
 color: darkgrey; */
